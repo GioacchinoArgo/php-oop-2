@@ -36,7 +36,7 @@ $products = [$product1, $product2, $product3, $product4, $product5, $product6, $
     <title>Boolandia</title>
     
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -55,8 +55,8 @@ $products = [$product1, $product2, $product3, $product4, $product5, $product6, $
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 text-center border border-0 rounded">
                         <img src="<?= $product->image; ?>" class="card-img-top h-100 p-4 zoom">
-                        <div class="card-body rounded-bottom border border-0 text-white">
-                            <h5 class="card-title"><?= $product->name; ?></h5>
+                        <div class="card-body rounded-bottom text-white">
+                            <h4 class="card-title"><?= $product->name; ?></h4>
                             <p class="card-text">Prezzo: €<?= $product->price; ?></p>
                             <p class="card-text">Genere: <?= $product->genre->icon; ?> <?= $product->genre->name; ?></p>
                             <p class="card-text">Categoria: <?= $product->category->name; ?></p>
