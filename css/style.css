@@ -1,3 +1,17 @@
 body {
+    font-family: "Mochiy Pop P One", sans-serif;
     background-color: #EFD161;
+}
+
+.card-body {
+    background-color: #5fba46;
+}
+
+.zoom {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
